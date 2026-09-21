@@ -10,7 +10,7 @@ public class TestedeDano : MonoBehaviour
 
          if (vida < 0)
          {
-            vida = 0
+            vida = 0;
          }
     }
 
@@ -20,7 +20,7 @@ public class TestedeDano : MonoBehaviour
         {
             if (vida > 0)
             {
-                int danoAleatorio = Random.Range(1,5)
+                int danoAleatorio = Random.Range(1,5);
                 AplicarDano(danoAleatorio);
                 Debug.Log($"Dano recebido: {danoAleatorio} | Vida restantes: {vida}");
 
