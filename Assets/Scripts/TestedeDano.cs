@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TestedeDano : MonoBehaviour
 {
-    [SerializeField] private int vida = 100;
+    private int vida = 100;
 
     public void AplicarDano(int dano)
     {
