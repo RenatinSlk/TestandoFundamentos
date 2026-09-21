@@ -12,4 +12,12 @@ public class Personagem : MonoBehaviour
     public float experiencia = 6.5f;
     public string classe = "Lutador";
     public bool estaVivo = true;
+
+    public int[] arrayExemplo = new int[5];
+
+    void Start()
+    {
+        arrayExemplo[0] = 50;
+        int tamanho = arrayExemplo.Length;
+    }
 }
