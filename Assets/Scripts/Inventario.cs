@@ -12,5 +12,13 @@ public class Inventario : MonoBehaviour
         }
     }
 
-
+    void ExibirArmas()
+    {
+        Debug.Log("espada", "escudo", "armadura", "adaga", "molotov", "bomba", "medkit", "água", "lanterna", "alabarda");
+        
+        foreach (string arma in armas)
+        {
+            Debug.Log(arma);
+        }
+    }
 }
