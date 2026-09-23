@@ -20,6 +20,12 @@ public class Repeticao : MonoBehaviour
 
             
         }
+        //Shotgun;
+    }
+
+    while (municaoPente > 0)
+    {
+        municaoPente -= 1;    
     }
     
     

@@ -5,9 +5,9 @@ using UnityEngine.UI;
 public class Personagem : MonoBehaviour
 {
     public int vida = 100;
-    public int forca = 70;
-    public int defesa = 60;
-    public int stamina = 100;
+    public int forca = 200;
+    public int defesa = 180;
+    public int stamina = 160;
     public int magia = 100;
     public float experiencia = 6.5f;
     public string classe = "Lutador";
@@ -18,6 +18,6 @@ public class Personagem : MonoBehaviour
     void Start()
     {
         arrayExemplo[0] = 50;
-        int tamanho = arrayExemplo.Length;
+        int tamanho = arrayExemplo.Length; 
     }
 }

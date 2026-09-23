@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 
 
-public enum Ataque
+public enum Ataque //enumerador
 {
     Soco,
     Chute,
@@ -13,7 +13,7 @@ public enum Ataque
 
 public class Combo : MonoBehaviour
 {
-   public List<Ataque> SequenciaGolpes = new List<Ataque>();
+   public List<Ataque> SequenciaGolpes = new List<Ataque>(); //lista (outro estilo de array)
 
    void Start()
    {
