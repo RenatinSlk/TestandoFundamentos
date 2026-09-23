@@ -374,6 +374,7 @@ GameObject:
   - component: {fileID: 1455121333}
   - component: {fileID: 1455121334}
   - component: {fileID: 1455121335}
+  - component: {fileID: 1455121336}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -433,11 +434,35 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455121330}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d67c893bda05bd94c8972185cb1e8006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inventario
+  armas:
+  - espada
+  - escudo
+  - armadura
+  - adaga
+  - molotov
+  - bomba
+  - medkit
+  - "\xE1gua"
+  - lanterna
+  - alabarda
+--- !u!114 &1455121336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455121330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f479686adc1a45c43a078c349b724383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Combo
+  SequenciaGolpes: 0000000001000000020000000300000004000000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
